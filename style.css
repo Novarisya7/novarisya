@@ -1,0 +1,34 @@
+html
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nama{
+    margin-right: auto;
+}
+li{
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+h2{
+    margin: 10px;
+    cursor: pointer;
+}
+li :hover{
+    color: aliceblue;
+    transition: all.5s ease 0s;
+    transform:rotate(2deg);
+}
+h2:hover{
+    color: aliceblue;
+    transform: rotate(2deg);
+    transition: all.5s ease 0s;
+}
